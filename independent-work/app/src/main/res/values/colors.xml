@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="cute_lavender">#FFEADDFF</color>
+    <color name="pastel_light_violet">#FFD0BCFF</color>
+    <color name="bright_ube">#FFB69DF8</color>
+    <color name="mystic_white">#FFF6EDFF</color>
 </resources>

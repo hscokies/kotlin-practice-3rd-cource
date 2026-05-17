@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.first_task.ui.theme.FirstTaskTheme
 import com.example.first_task.R
+import com.example.first_task.ui.screens.ui.theme.IndependentWorkTheme
 
 class ViewJetpackTutorial : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,7 +39,7 @@ fun ViewJetpackTutorialPage(){
     val sharedTextModifiers = Modifier.padding(16.dp).fillMaxWidth()
 
 
-    FirstTaskTheme {
+    IndependentWorkTheme {
         Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
             Column(modifier = Modifier.fillMaxSize().padding(innerPadding)) {
                 Image(painterResource(id = R.drawable.bg_compose_background), contentDescription = stringResource(R.string.banner), contentScale = ContentScale.Fit, modifier = Modifier.fillMaxWidth())

@@ -3,6 +3,7 @@
 ## Задание №1
 
 После завершения реализации ваш дизайн должен соответствовать следующему снимку экрана:
+
 ![task1-1-result.png](resources/task1-1-result.png)
 
 ### Спецификация пользовательского интерфейса
@@ -25,6 +26,7 @@
 ## Задача №2
 
 После завершения реализации ваш дизайн должен соответствовать этому снимку экрана:
+
 ![task1-2-result.png](resources/task1-2-result.png)
 
 ### Спецификация пользовательского интерфейса
@@ -42,3 +44,45 @@
 > All tasks completed
 
 > Nice work!
+
+## Задача №3
+
+После завершения реализации ваш дизайн должен соответствовать этому снимку экрана:
+
+![task1-1-result.png](resources/task1-3-result.png)
+
+### Спецификация пользовательского интерфейса
+
+Следуйте этой спецификации UI:
+
+1. Установите для всего квадранта (start, end, top, and bottom) отступ 16dp.
+2. Выровняйте все содержимое по центру по вертикали и горизонтали в каждом квадранте.
+3. Отформатируйте первый Text, жирным шрифтом и установите для него отступ снизу размером 16dp.
+4. Установите для второго Text размер шрифта по умолчанию.
+
+### Ресурсы
+
+В проект необходимо импортировать следующие строки:
+
+> Text composable
+
+> Displays text and follows the recommended Material Design guidelines.
+
+> Image composable
+
+> Creates a composable that lays out and draws a given Painter class object.
+
+> Row composable
+
+> A layout composable that places its children in a horizontal sequence.
+ 
+> Column composable
+
+> A layout composable that places its children in a vertical sequence.
+
+И следующие цвета:
+
+- `0xFFEADDFF`
+- `0xFFD0BCFF`
+- `0xFFB69DF8`
+- `0xFFF6EDFF`

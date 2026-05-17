@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstTask">
         <activity
+            android:name=".ui.screens.ViewComposablesDescription"
+            android:exported="false"
+            android:label="@string/title_activity_view_composables_description"
+            android:theme="@style/Theme.FirstTask" />
+        <activity
             android:name=".ui.screens.ViewTasksCompletedOutro"
             android:exported="false"
             android:label="@string/title_activity_view_tasks_completed_outro"

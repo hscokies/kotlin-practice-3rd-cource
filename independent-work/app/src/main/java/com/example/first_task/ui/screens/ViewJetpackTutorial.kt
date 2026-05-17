@@ -28,13 +28,13 @@ class ViewJetpackTutorial : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Page()
+            ViewJetpackTutorialPage()
         }
     }
 }
 
 @Composable
-fun Page(){
+fun ViewJetpackTutorialPage(){
     val sharedTextModifiers = Modifier.padding(16.dp).fillMaxWidth()
 
 
@@ -54,5 +54,5 @@ fun Page(){
 @Preview(showBackground = true)
 @Composable
 fun ViewJetpackTutorialPreview() {
-    Page()
+    ViewJetpackTutorialPage()
 }

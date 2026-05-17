@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstTask">
         <activity
+            android:name=".ui.screens.ViewTasksCompletedOutro"
+            android:exported="false"
+            android:label="@string/title_activity_view_tasks_completed_outro"
+            android:theme="@style/Theme.FirstTask" />
+        <activity
             android:name=".ui.screens.ViewJetpackTutorial"
             android:exported="false"
             android:label="@string/title_activity_view_jetpack_tutorial"

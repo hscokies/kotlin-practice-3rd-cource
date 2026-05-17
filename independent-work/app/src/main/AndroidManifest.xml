@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstTask">
         <activity
+            android:name="com.example.second_task.ui.screens.ViewBerlinDescription"
+            android:exported="false"
+            android:label="@string/title_activity_view_berlin_description"
+            android:theme="@style/Theme.FirstTask" />
+        <activity
             android:name=".ui.screens.ViewComposablesDescription"
             android:exported="false"
             android:label="@string/title_activity_view_composables_description"

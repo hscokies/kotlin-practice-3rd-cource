@@ -9,17 +9,17 @@
     <string name="title_activity_view_tasks_completed_outro">ViewTasksCompletedOutro</string>
     <string name="tasks_completed_title">All tasks completed</string>
     <string name="tasks_completed_subtitle">Nice work!</string>
-
     <string name="title_activity_view_composables_description">ViewComposablesDescription</string>
     <string name="text_composable_title">Text composable</string>
     <string name="text_composable_description">Displays text and follows the recommended Material Design guidelines.</string>
-
     <string name="image_composable_title">Image composable</string>
     <string name="image_composable_description">Creates a composable that lays out and draws a given Painter class object.</string>
-
     <string name="row_composable_title">Row composable</string>
     <string name="row_composable_description">A layout composable that places its children in a horizontal sequence.</string>
-
     <string name="column_composable_title">Column composable</string>
     <string name="column_composable_description">A layout composable that places its children in a vertical sequence.</string>
+    
+    <string name="title_activity_view_berlin_description">ViewBerlinDescription</string>
+    <string name="berlin_title">Berlin</string>
+    <string name="berlin_description">Берлин – столица Германии, история которой восходит к XIII в. О непростой истории города в XX в. Напоминает Мемориал жертвам Холокоста и граффити на руинах Берлинской стены. Бранденбургские ворота, возведенные в XVIII в., известны как символ воссоединения Берлина, разделенного во время Холодной войны на две части. Также город славится своими художественными галереями и современными достопримечательностями, например построенной в 1963 г. Филармонией золотого цвета с крышей в форме циркового шатра.</string>
 </resources>

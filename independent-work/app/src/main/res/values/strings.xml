@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Independent Work</string>
     <string name="banner">Banner</string>
+    <string name="icon">icon</string>
+
+
     <string name="title_activity_view_jetpack_tutorial">ViewJetpackTutorial</string>
     <string name="jetpack_tutorial_title">Jetpack Compose tutorial</string>
     <string name="about_jetpack">Jetpack Compose is a modern toolkit for building native Android UI. Compose simplifies and accelerates UI development on Android with less code, powerful tools, and intuitive Kotlin APIs.</string>
@@ -29,4 +32,7 @@
     <string name="authorization_title">Авторизация</string>
     <string name="authorization_button">Авторизоваться</string>
     <string name="title_activity_view_enumerated_grid">ViewEnumeratedGrid</string>
+
+    <string name="title_activity_view_contacts">ViewContacts</string>
+    <string name="view_contacts_title">Контакты</string>
 </resources>

@@ -11,6 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstTask">
         <activity
+            android:name="com.example.second_task.ui.screens.ViewContacts"
+            android:exported="false"
+            android:label="@string/title_activity_view_contacts"
+            android:theme="@style/Theme.FirstTask" />
+        <activity
             android:name="com.example.second_task.ui.screens.Authorization"
             android:exported="false"
             android:label="@string/title_activity_authorization"

@@ -18,8 +18,14 @@
     <string name="row_composable_description">A layout composable that places its children in a horizontal sequence.</string>
     <string name="column_composable_title">Column composable</string>
     <string name="column_composable_description">A layout composable that places its children in a vertical sequence.</string>
-    
+
     <string name="title_activity_view_berlin_description">ViewBerlinDescription</string>
     <string name="berlin_title">Berlin</string>
     <string name="berlin_description">Берлин – столица Германии, история которой восходит к XIII в. О непростой истории города в XX в. Напоминает Мемориал жертвам Холокоста и граффити на руинах Берлинской стены. Бранденбургские ворота, возведенные в XVIII в., известны как символ воссоединения Берлина, разделенного во время Холодной войны на две части. Также город славится своими художественными галереями и современными достопримечательностями, например построенной в 1963 г. Филармонией золотого цвета с крышей в форме циркового шатра.</string>
+    
+    <string name="title_activity_authorization">Authorization</string>
+    <string name="authorization_email">Email</string>
+    <string name="authorization_password">Password</string>
+    <string name="authorization_title">Авторизация</string>
+    <string name="authorization_button">Авторизоваться</string>
 </resources>

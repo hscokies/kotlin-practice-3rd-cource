@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.grid.GridCells
@@ -19,7 +18,6 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
@@ -73,14 +71,15 @@ fun ViewEnumeratedGridPage() {
 }
 
 @Composable
-fun ViewEnumeratedGridCell(data: ViewEnumeratedGridItem){
+fun ViewEnumeratedGridCell(data: ViewEnumeratedGridItem) {
     Column(modifier = Modifier.padding(16.dp)) {
         Text(text = data.title, fontSize = 24.sp)
         Spacer(modifier = Modifier.size(8.dp))
         Image(
             painter = painterResource(data.image),
             contentDescription = stringResource(R.string.banner),
-            modifier = Modifier.aspectRatio(1f))
+            modifier = Modifier.aspectRatio(1f)
+        )
     }
 }
 

@@ -6,7 +6,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.first_task.ui.screens.ViewJetpackTutorial
+import androidx.navigation.compose.rememberNavController
+import com.example.third_task.ui.components.SetupNavigationHost
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,6 +20,9 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        setContent { ViewJetpackTutorial() }
+        setContent {
+            val rememberNavigationHostController = rememberNavController()
+            SetupNavigationHost(navigationController = rememberNavigationHostController)
+        }
     }
 }

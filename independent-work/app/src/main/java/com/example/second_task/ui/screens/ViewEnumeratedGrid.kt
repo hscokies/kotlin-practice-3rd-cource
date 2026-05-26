@@ -24,7 +24,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.first_task.R
-import com.example.second_task.ui.model.ViewEnumeratedGridItem
+import com.example.second_task.model.ViewEnumeratedGridItem
 import com.example.second_task.ui.screens.ui.theme.IndependentWorkTheme
 
 class ViewEnumeratedGrid : ComponentActivity() {

@@ -35,4 +35,21 @@
 
     <string name="title_activity_view_contacts">ViewContacts</string>
     <string name="view_contacts_title">Контакты</string>
+
+    <string name="title_activity_game_image">GameImage</string>
+    <string name="title_activity_game_item">GameItem</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="title_activity_setup_navigation_host">SetupNavigationHost</string>
+    <string name="title_activity_profile_header">ProfileHeader</string>
+    <string name="title_activity_profile_property">ProfileProperty</string>
+    <string name="title_activity_profile_content">ProfileContent</string>
+    <string name="title_activity_profile_screen">ProfileScreen</string>
+
+    <string name="game_profile_released">Дата релиза</string>
+    <string name="game_profile_developer">Разработчик</string>
+    <string name="game_profile_genres">Жанры</string>
+    <string name="game_profile_price">Цена</string>
+    <string name="game_profile_description">Описание</string>
+    <string name="game_profile_notFound">Неизвестный идентификатор %,d</string>
+
 </resources>

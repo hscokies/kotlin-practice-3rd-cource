@@ -11,6 +11,46 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstTask">
         <activity
+            android:name="com.example.third_task.ui.components.ProfileScreen"
+            android:exported="false"
+            android:label="@string/title_activity_profile_screen"
+            android:theme="@style/Theme.FirstTask" />
+        <activity
+            android:name="com.example.third_task.ui.components.ProfileContent"
+            android:exported="false"
+            android:label="@string/title_activity_profile_content"
+            android:theme="@style/Theme.FirstTask" />
+        <activity
+            android:name="com.example.third_task.ui.components.ProfileProperty"
+            android:exported="false"
+            android:label="@string/title_activity_profile_property"
+            android:theme="@style/Theme.FirstTask" />
+        <activity
+            android:name="com.example.third_task.ui.components.ProfileHeader"
+            android:exported="false"
+            android:label="@string/title_activity_profile_header"
+            android:theme="@style/Theme.FirstTask" />
+        <activity
+            android:name="com.example.third_task.ui.components.SetupNavigationHost"
+            android:exported="false"
+            android:label="@string/title_activity_setup_navigation_host"
+            android:theme="@style/Theme.FirstTask" />
+        <activity
+            android:name="com.example.third_task.ui.screens.MainScreen"
+            android:exported="false"
+            android:label="@string/title_activity_main_screen"
+            android:theme="@style/Theme.FirstTask" />
+        <activity
+            android:name="com.example.third_task.ui.components.GameItem"
+            android:exported="false"
+            android:label="@string/title_activity_game_item"
+            android:theme="@style/Theme.FirstTask" />
+        <activity
+            android:name="com.example.third_task.ui.components.GameImage"
+            android:exported="false"
+            android:label="@string/title_activity_game_image"
+            android:theme="@style/Theme.FirstTask" />
+        <activity
             android:name="com.example.second_task.ui.screens.ViewContacts"
             android:exported="false"
             android:label="@string/title_activity_view_contacts"

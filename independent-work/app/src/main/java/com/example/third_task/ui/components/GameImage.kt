@@ -41,7 +41,7 @@ fun GameImage(game: Game, modifier: Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GameImagePreview() {
-    val item = GameItemsProvider.Item();
+    val item = GameItemsProvider.Item()
 
     IndependentWorkTheme {
         GameImage(

@@ -55,12 +55,12 @@ fun ProfileProperty(key: String, value: String) {
 @Preview(showBackground = true)
 @Composable
 fun ProfilePropertyPreview() {
-    val game = GameItemsProvider.Items().first();
+    val game = GameItemsProvider.Items().first()
 
     IndependentWorkTheme {
         ProfileProperty(
             key = stringResource(R.string.game_profile_description),
             value = game.description
-        );
+        )
     }
 }

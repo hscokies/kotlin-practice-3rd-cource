@@ -53,7 +53,7 @@ fun GameItem(game: Game, navigationController: NavController, modifier: Modifier
         modifier = modifier
             .clip(shape = MaterialTheme.shapes.extraSmall)
             .shadow(2.dp)
-            .clickable() {
+            .clickable {
                 navigationController.navigate(route = "${Screen.Profile.route}/${game.id}")
             }
     ) {
@@ -104,7 +104,7 @@ fun InlineText(text: String, style: TextStyle = TextStyle.Default, color: Color 
 @Composable
 fun GameItemPreview() {
     val dummyNavController = rememberNavController()
-    val item = GameItemsProvider.Item();
+    val item = GameItemsProvider.Item()
 
     IndependentWorkTheme {
         GameItem(

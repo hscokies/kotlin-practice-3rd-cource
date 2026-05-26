@@ -36,9 +36,11 @@ class ViewTasksCompletedOutro : ComponentActivity() {
 
 @Composable
 fun ViewTasksCompletedOutroPage(){
-    IndependentWorkTheme() {
+    IndependentWorkTheme {
         Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-            Column(modifier = Modifier.fillMaxSize().padding(innerPadding), verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally){
+            Column(modifier = Modifier
+                .fillMaxSize()
+                .padding(innerPadding), verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally){
                 Image(painterResource(R.drawable.ic_task_completed), contentDescription = stringResource(R.string.banner), contentScale = ContentScale.Fit)
                 Text(text = stringResource(R.string.tasks_completed_title), fontWeight = FontWeight.Bold, modifier = Modifier.padding(top = 24.dp, bottom = 8.dp))
                 Text(text = stringResource(R.string.tasks_completed_subtitle), fontSize = 16.sp)

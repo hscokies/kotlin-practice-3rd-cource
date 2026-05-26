@@ -32,7 +32,7 @@ class ViewEnumeratedGrid : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            ViewEnumeratedGridPage();
+            ViewEnumeratedGridPage()
         }
     }
 }
@@ -86,5 +86,5 @@ fun ViewEnumeratedGridCell(data: ViewEnumeratedGridItem) {
 @Preview(showBackground = true)
 @Composable
 fun ViewEnumeratedGridPreview() {
-    ViewEnumeratedGridPage();
+    ViewEnumeratedGridPage()
 }

@@ -33,16 +33,16 @@ class ProfileScreen : ComponentActivity() {
 @Composable
 fun ProfileScreen(id: Int?) {
     if (id == null) {
-        Text(text = String.format(stringResource(id = R.string.game_profile_notFound), id));
-        return;
+        Text(text = String.format(stringResource(id = R.string.game_profile_notFound), id))
+        return
     }
 
     val gameList = remember { GameItemsProvider.Items() }
 
     val game = gameList.find { it.id == id }
     if (game == null) {
-        Text(text = String.format(stringResource(id = R.string.game_profile_notFound), id));
-        return;
+        Text(text = String.format(stringResource(id = R.string.game_profile_notFound), id))
+        return
     }
 
     Column(modifier = Modifier.fillMaxSize()) {
@@ -54,7 +54,7 @@ fun ProfileScreen(id: Int?) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    val item = GameItemsProvider.Item();
+    GameItemsProvider.Item()
     IndependentWorkTheme {
         ProfileScreen(id = 2)
     }

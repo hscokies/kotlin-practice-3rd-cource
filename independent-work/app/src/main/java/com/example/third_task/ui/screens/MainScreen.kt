@@ -32,7 +32,7 @@ class MainScreen : ComponentActivity() {
 
 @Composable
 fun MainScreen(navigationController: NavController) {
-    val games = GameItemsProvider.Items();
+    val games = GameItemsProvider.Items()
 
     LazyColumn(
         contentPadding = PaddingValues(all = 8.dp),

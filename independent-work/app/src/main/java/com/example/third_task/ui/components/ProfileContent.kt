@@ -63,7 +63,7 @@ fun ProfileContent(game: Game, modifier: Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun ProfileContentPreview() {
-    val item = GameItemsProvider.Item();
+    val item = GameItemsProvider.Item()
 
     IndependentWorkTheme {
         ProfileContent(game = item, modifier = Modifier)

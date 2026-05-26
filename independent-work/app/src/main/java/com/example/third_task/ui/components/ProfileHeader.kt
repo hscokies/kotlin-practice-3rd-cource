@@ -39,7 +39,7 @@ fun ProfileHeader(game: Game) {
 @Preview(showBackground = true)
 @Composable
 fun ProfileHeaderPreview() {
-    val item = GameItemsProvider.Item();
+    val item = GameItemsProvider.Item()
 
     IndependentWorkTheme {
         ProfileHeader(
